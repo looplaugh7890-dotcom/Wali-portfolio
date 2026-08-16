@@ -22,7 +22,7 @@ export const siteConfig = {
   location: 'Pakistan',
 
   social: {
-    github: 'https://github.com/',
+    github: 'https://github.com/looplaugh7890-dotcom',
     linkedin: 'https://www.linkedin.com/in/waliaslam/',
     instagram: 'https://www.instagram.com/wali_sk_07?igsh=MXR3d2J3amg2OTgycg==',
     facebook: 'https://www.facebook.com/share/1Bvmqce43G/',

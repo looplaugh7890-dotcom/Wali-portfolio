@@ -147,7 +147,7 @@ export function Hero() {
           <div className="absolute -inset-8 rounded-[44px] border border-brass/5 pointer-events-none" />
           <div className="relative aspect-[4/5] w-full overflow-hidden rounded-[28px] border border-brass/25 bg-gradient-to-b from-surface-2 to-surface">
             <Image
-              src="/images/wali.jpg"
+              src="/images/wali.png"
               alt={t.heroAlt}
               fill
               priority
