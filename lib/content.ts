@@ -17,17 +17,16 @@ export const siteConfig = {
   ctaPrimary: 'Start a Project',
   ctaSecondary: 'View My Work',
 
-  // TODO — replace with your real contact details before launch.
-  email: 'hello@waliaslam.dev',
-  phone: '+92 300 0000000',
+  email: 'waliaslam44@gmail.com',
+  phone: '+92 3172254574',
   location: 'Pakistan',
 
-  // TODO — replace with your real profile URLs, or remove ones you don't use.
   social: {
     github: 'https://github.com/',
-    linkedin: 'https://linkedin.com/in/',
-    instagram: 'https://instagram.com/',
-    twitter: 'https://twitter.com/',
+    linkedin: 'https://www.linkedin.com/in/waliaslam/',
+    instagram: 'https://www.instagram.com/wali_sk_07?igsh=MXR3d2J3amg2OTgycg==',
+    facebook: 'https://www.facebook.com/share/1Bvmqce43G/',
+    upwork: 'https://www.upwork.com/freelancers/~01271d27d831435217?mp_source=share',
   },
 
   // TODO — these are placeholders, not real numbers. Edit before launch.
@@ -95,6 +94,26 @@ export const services = [
     deliverables: ['Technical SEO', 'Analytics setup', 'Content strategy', 'Performance marketing'],
     technologies: ['SEO', 'Google Analytics', 'Search Console', 'Social Media Marketing'],
   },
+  {
+    number: '04',
+    slug: 'shopify-development',
+    title: 'Shopify Development',
+    short: 'Custom Shopify stores built for conversions and growth.',
+    description:
+      "Custom Shopify themes, apps, and integrations — built to convert visitors into customers. From store setup to advanced customization, every detail optimized for sales.",
+    deliverables: ['Custom theme development', 'Shopify apps & integrations', 'Store migration', 'Performance optimization'],
+    technologies: ['Shopify', 'Liquid', 'Shopify CLI', 'REST APIs', 'JavaScript'],
+  },
+  {
+    number: '05',
+    slug: 'wordpress-development',
+    title: 'WordPress Development',
+    short: 'Professional WordPress sites with custom themes and plugins.',
+    description:
+      "Custom WordPress themes and plugins — no generic page builders. Every site is built for speed, security, and easy content management that your team can handle.",
+    deliverables: ['Custom theme development', 'Plugin development', 'WooCommerce stores', 'Site maintenance'],
+    technologies: ['WordPress', 'PHP', 'WooCommerce', 'MySQL', 'JavaScript'],
+  },
 ];
 
 export const techStack = {
@@ -150,5 +169,7 @@ export const serviceOptions = [
   'App Development',
   'Digital Marketing',
   'SEO',
+  'Shopify Development',
+  'WordPress Development',
   'Other',
 ];

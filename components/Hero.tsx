@@ -13,9 +13,9 @@ export function Hero() {
   const floatingLabels = [t.floatingLabel1, t.floatingLabel2, t.floatingLabel3];
 
   const stats = [
-    { value: '10+', label: t.statsProjects },
-    { value: '∞', label: t.statsClients },
-    { value: '3+', label: t.statsYears },
+    { value: '40+', label: t.statsProjects },
+    { value: '40+', label: t.statsClients },
+    { value: '2+', label: t.statsYears },
   ];
 
   function handleMouseMove(e: React.MouseEvent<HTMLDivElement>) {
@@ -147,7 +147,7 @@ export function Hero() {
           <div className="absolute -inset-8 rounded-[44px] border border-brass/5 pointer-events-none" />
           <div className="relative aspect-[4/5] w-full overflow-hidden rounded-[28px] border border-brass/25 bg-gradient-to-b from-surface-2 to-surface">
             <Image
-              src="/images/portrait.png"
+              src="/images/wali.jpg"
               alt={t.heroAlt}
               fill
               priority

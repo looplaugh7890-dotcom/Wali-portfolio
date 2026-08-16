@@ -39,6 +39,24 @@ export function Services() {
       deliverables: [t.digitalMarketingD1, t.digitalMarketingD2, t.digitalMarketingD3, t.digitalMarketingD4],
       technologies: ['SEO', 'Google Analytics', 'Search Console', 'Social Media Marketing'],
     },
+    {
+      number: '04',
+      slug: 'shopify-development',
+      title: t.shopifyDevTitle,
+      short: t.shopifyDevShort,
+      description: t.shopifyDevDesc,
+      deliverables: [t.shopifyDevD1, t.shopifyDevD2, t.shopifyDevD3, t.shopifyDevD4],
+      technologies: ['Shopify', 'Liquid', 'Shopify CLI', 'REST APIs', 'JavaScript'],
+    },
+    {
+      number: '05',
+      slug: 'wordpress-development',
+      title: t.wordpressDevTitle,
+      short: t.wordpressDevShort,
+      description: t.wordpressDevDesc,
+      deliverables: [t.wordpressDevD1, t.wordpressDevD2, t.wordpressDevD3, t.wordpressDevD4],
+      technologies: ['WordPress', 'PHP', 'WooCommerce', 'MySQL', 'JavaScript'],
+    },
   ];
 
   return (

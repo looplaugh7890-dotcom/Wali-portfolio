@@ -77,6 +77,20 @@ export type TranslationKeys = {
   digitalMarketingD2: string;
   digitalMarketingD3: string;
   digitalMarketingD4: string;
+  shopifyDevTitle: string;
+  shopifyDevShort: string;
+  shopifyDevDesc: string;
+  shopifyDevD1: string;
+  shopifyDevD2: string;
+  shopifyDevD3: string;
+  shopifyDevD4: string;
+  wordpressDevTitle: string;
+  wordpressDevShort: string;
+  wordpressDevDesc: string;
+  wordpressDevD1: string;
+  wordpressDevD2: string;
+  wordpressDevD3: string;
+  wordpressDevD4: string;
   covers: string;
   technologies: string;
 
@@ -172,6 +186,8 @@ export type TranslationKeys = {
   serviceOpt3: string;
   serviceOpt4: string;
   serviceOpt5: string;
+  serviceOpt6: string;
+  serviceOpt7: string;
 };
 
 const en: TranslationKeys = {
@@ -183,7 +199,7 @@ const en: TranslationKeys = {
   ctaPrimary: 'Start a Project',
   ctaSecondary: 'View My Work',
   email: 'hello@waliaslam.dev',
-  phone: '+92 300 0000000',
+  phone: '+92 3172254574',
   location: 'Pakistan',
   statsProjects: 'Projects Shipped',
   statsClients: 'Happy Clients',
@@ -216,7 +232,7 @@ const en: TranslationKeys = {
   timeline4Label: 'Building full digital experiences, end to end',
 
   servicesEyebrow: 'What I Do',
-  servicesTitle: 'Three disciplines. One outcome.',
+  servicesTitle: 'Five disciplines. One outcome.',
   webDevTitle: 'Web Development',
   webDevShort: 'Fast, modern websites and web apps built around business goals.',
   webDevDesc: "Custom-built sites and web applications — no bloated page builders, no cut corners. Every project is built for speed, clarity, and a clean path to whatever action you want a visitor to take.",
@@ -238,6 +254,20 @@ const en: TranslationKeys = {
   digitalMarketingD2: 'Analytics setup',
   digitalMarketingD3: 'Content strategy',
   digitalMarketingD4: 'Performance marketing',
+  shopifyDevTitle: 'Shopify Development',
+  shopifyDevShort: 'Custom Shopify stores built for conversions and growth.',
+  shopifyDevDesc: "Custom Shopify themes, apps, and integrations — built to convert visitors into customers. From store setup to advanced customization, every detail optimized for sales.",
+  shopifyDevD1: 'Custom theme development',
+  shopifyDevD2: 'Shopify apps & integrations',
+  shopifyDevD3: 'Store migration',
+  shopifyDevD4: 'Performance optimization',
+  wordpressDevTitle: 'WordPress Development',
+  wordpressDevShort: 'Professional WordPress sites with custom themes and plugins.',
+  wordpressDevDesc: "Custom WordPress themes and plugins — no generic page builders. Every site is built for speed, security, and easy content management that your team can handle.",
+  wordpressDevD1: 'Custom theme development',
+  wordpressDevD2: 'Plugin development',
+  wordpressDevD3: 'WooCommerce stores',
+  wordpressDevD4: 'Site maintenance',
   covers: 'Covers',
   technologies: 'Technologies',
 
@@ -295,7 +325,7 @@ const en: TranslationKeys = {
   contactEmail: 'Email',
   contactEmailPlaceholder: 'you@company.com',
   contactPhone: 'Phone (optional)',
-  contactPhonePlaceholder: '+92 300 0000000',
+  contactPhonePlaceholder: '+92 3172254574',
   contactService: 'Service',
   contactServicePlaceholder: 'Select a service',
   contactBudget: 'Budget (optional)',
@@ -323,7 +353,9 @@ const en: TranslationKeys = {
   serviceOpt2: 'App Development',
   serviceOpt3: 'Digital Marketing',
   serviceOpt4: 'SEO',
-  serviceOpt5: 'Other',
+  serviceOpt5: 'Shopify Development',
+  serviceOpt6: 'WordPress Development',
+  serviceOpt7: 'Other',
 };
 
 const zh: TranslationKeys = {
@@ -335,7 +367,7 @@ const zh: TranslationKeys = {
   ctaPrimary: '开始项目',
   ctaSecondary: '查看作品',
   email: 'hello@waliaslam.dev',
-  phone: '+92 300 0000000',
+  phone: '+92 3172254574',
   location: '巴基斯坦',
   statsProjects: '已交付项目',
   statsClients: '满意客户',
@@ -368,7 +400,7 @@ const zh: TranslationKeys = {
   timeline4Label: '端到端构建完整数字体验',
 
   servicesEyebrow: '我能做什么',
-  servicesTitle: '三个领域，一个结果。',
+  servicesTitle: '五个领域，一个结果。',
   webDevTitle: '网站开发',
   webDevShort: '围绕业务目标构建的快速现代网站和Web应用。',
   webDevDesc: '定制开发的网站和Web应用——没有臃肿的页面构建器，没有偷工减料。每个项目都为速度、清晰度和转化路径而构建。',
@@ -390,6 +422,20 @@ const zh: TranslationKeys = {
   digitalMarketingD2: '分析设置',
   digitalMarketingD3: '内容策略',
   digitalMarketingD4: '效果营销',
+  shopifyDevTitle: 'Shopify开发',
+  shopifyDevShort: '为转化和增长定制的Shopify商店。',
+  shopifyDevDesc: '定制Shopify主题、应用和集成——为将访客转化为客户而构建。从店铺设置到高级定制，每个细节都为销售优化。',
+  shopifyDevD1: '定制主题开发',
+  shopifyDevD2: 'Shopify应用与集成',
+  shopifyDevD3: '店铺迁移',
+  shopifyDevD4: '性能优化',
+  wordpressDevTitle: 'WordPress开发',
+  wordpressDevShort: '具有自定义主题和插件的专业WordPress网站。',
+  wordpressDevDesc: '定制WordPress主题和插件——没有通用的页面构建器。每个网站都为速度、安全性和易于内容管理而构建。',
+  wordpressDevD1: '定制主题开发',
+  wordpressDevD2: '插件开发',
+  wordpressDevD3: 'WooCommerce商店',
+  wordpressDevD4: '网站维护',
   covers: '涵盖',
   technologies: '技术栈',
 
@@ -447,7 +493,7 @@ const zh: TranslationKeys = {
   contactEmail: '邮箱',
   contactEmailPlaceholder: 'you@company.com',
   contactPhone: '电话（可选）',
-  contactPhonePlaceholder: '+92 300 0000000',
+  contactPhonePlaceholder: '+92 3172254574',
   contactService: '服务类型',
   contactServicePlaceholder: '选择服务',
   contactBudget: '预算（可选）',
@@ -475,7 +521,9 @@ const zh: TranslationKeys = {
   serviceOpt2: '应用开发',
   serviceOpt3: '数字营销',
   serviceOpt4: 'SEO',
-  serviceOpt5: '其他',
+  serviceOpt5: 'Shopify开发',
+  serviceOpt6: 'WordPress开发',
+  serviceOpt7: '其他',
 };
 
 const ar: TranslationKeys = {
@@ -487,7 +535,7 @@ const ar: TranslationKeys = {
   ctaPrimary: 'ابدأ مشروعك',
   ctaSecondary: 'عرض أعمالي',
   email: 'hello@waliaslam.dev',
-  phone: '+92 300 0000000',
+  phone: '+92 3172254574',
   location: 'باكستان',
   statsProjects: 'مشاريع منجزة',
   statsClients: 'عملاء سعداء',
@@ -520,7 +568,7 @@ const ar: TranslationKeys = {
   timeline4Label: 'بناء تجارب رقمية متكاملة من البداية',
 
   servicesEyebrow: 'ما أقدمه',
-  servicesTitle: 'ثلاثة تخصصات. نتيجة واحدة.',
+  servicesTitle: 'خمسة تخصصات. نتيجة واحدة.',
   webDevTitle: 'تطوير المواقع',
   webDevShort: 'مواقع وتطبيقات ويب سريعة وعصرية مبنية حول أهداف العمل.',
   webDevDesc: 'مواقع وتطبيقات ويب مبنية حسب الطلب — بدون منشئات مواقع مُثقلة أو اختصارات. كل مشروع مبني للسرعة والوضوح ومسار واضح للتحول.',
@@ -542,6 +590,20 @@ const ar: TranslationKeys = {
   digitalMarketingD2: 'إعداد التحليلات',
   digitalMarketingD3: 'استراتيجية المحتوى',
   digitalMarketingD4: 'التسويق بالأداء',
+  shopifyDevTitle: 'تطوير Shopify',
+  shopifyDevShort: 'متاجر Shopify مخصصة مبنية للتحويلات والنمو.',
+  shopifyDevDesc: 'سمات Shopify مخصصة وتطبيقات وتكاملات — مبنية لتحويل الزوار إلى عملاء. من إعداد المتجر إلى التخصيص المتقدم.',
+  shopifyDevD1: 'تطوير سمات مخصصة',
+  shopifyDevD2: 'تطبيقات وتكاملات Shopify',
+  shopifyDevD3: 'ترحيل المتجر',
+  shopifyDevD4: 'تحسين الأداء',
+  wordpressDevTitle: 'تطوير WordPress',
+  wordpressDevShort: 'مواقع WordPress احترافية مع سمات وإضافات مخصصة.',
+  wordpressDevDesc: 'سمات WordPress مخصصة وإضافات — بدون منشئات صفحات عامة. كل موقع مبني للسرعة والأمان وسهولة إدارة المحتوى.',
+  wordpressDevD1: 'تطوير سمات مخصصة',
+  wordpressDevD2: 'تطوير الإضافات',
+  wordpressDevD3: 'متاجر WooCommerce',
+  wordpressDevD4: 'صيانة الموقع',
   covers: 'يشمل',
   technologies: 'التقنيات',
 
@@ -599,7 +661,7 @@ const ar: TranslationKeys = {
   contactEmail: 'البريد الإلكتروني',
   contactEmailPlaceholder: 'you@company.com',
   contactPhone: 'الهاتف (اختياري)',
-  contactPhonePlaceholder: '+92 300 0000000',
+  contactPhonePlaceholder: '+92 3172254574',
   contactService: 'الخدمة',
   contactServicePlaceholder: 'اختر خدمة',
   contactBudget: 'الميزانية (اختياري)',
@@ -627,7 +689,9 @@ const ar: TranslationKeys = {
   serviceOpt2: 'تطوير التطبيقات',
   serviceOpt3: 'التسويق الرقمي',
   serviceOpt4: 'SEO',
-  serviceOpt5: 'أخرى',
+  serviceOpt5: 'تطوير Shopify',
+  serviceOpt6: 'تطوير WordPress',
+  serviceOpt7: 'أخرى',
 };
 
 const fr: TranslationKeys = {
@@ -639,7 +703,7 @@ const fr: TranslationKeys = {
   ctaPrimary: 'Démarrer un projet',
   ctaSecondary: 'Voir mes travaux',
   email: 'hello@waliaslam.dev',
-  phone: '+92 300 0000000',
+  phone: '+92 3172254574',
   location: 'Pakistan',
   statsProjects: 'Projets livrés',
   statsClients: 'Clients satisfaits',
@@ -672,7 +736,7 @@ const fr: TranslationKeys = {
   timeline4Label: "Construire des expériences numériques complètes, de bout en bout",
 
   servicesEyebrow: 'Ce que je fais',
-  servicesTitle: 'Trois disciplines. Un résultat.',
+  servicesTitle: 'Cinq disciplines. Un résultat.',
   webDevTitle: 'Développement Web',
   webDevShort: 'Sites et applications web rapides et modernes construits autour des objectifs métier.',
   webDevDesc: "Sites et applications web sur mesure — sans constructeurs de pages surchargés. Chaque projet est construit pour la rapidité, la clarté et un parcours vers l'action souhaitée.",
@@ -694,6 +758,20 @@ const fr: TranslationKeys = {
   digitalMarketingD2: "Configuration de l'analytique",
   digitalMarketingD3: 'Stratégie de contenu',
   digitalMarketingD4: 'Marketing de performance',
+  shopifyDevTitle: 'Développement Shopify',
+  shopifyDevShort: 'Boutiques Shopify personnalisées conçues pour les conversions et la croissance.',
+  shopifyDevDesc: 'Thèmes, applications et intégrations Shopify personnalisés — conçus pour convertir les visiteurs en clients. De la configuration de la boutique à la personnalisation avancée.',
+  shopifyDevD1: 'Développement de thèmes personnalisés',
+  shopifyDevD2: 'Applications et intégrations Shopify',
+  shopifyDevD3: 'Migration de boutique',
+  shopifyDevD4: 'Optimisation des performances',
+  wordpressDevTitle: 'Développement WordPress',
+  wordpressDevShort: 'Sites WordPress professionnels avec thèmes et plugins personnalisés.',
+  wordpressDevDesc: 'Thèmes et plugins WordPress personnalisés — sans constructeurs de pages génériques. Chaque site est construit pour la rapidité, la sécurité et la gestion facile du contenu.',
+  wordpressDevD1: 'Développement de thèmes personnalisés',
+  wordpressDevD2: 'Développement de plugins',
+  wordpressDevD3: 'Boutiques WooCommerce',
+  wordpressDevD4: 'Maintenance du site',
   covers: 'Couvre',
   technologies: 'Technologies',
 
@@ -751,7 +829,7 @@ const fr: TranslationKeys = {
   contactEmail: 'Email',
   contactEmailPlaceholder: 'vous@entreprise.com',
   contactPhone: 'Téléphone (optionnel)',
-  contactPhonePlaceholder: '+92 300 0000000',
+  contactPhonePlaceholder: '+92 3172254574',
   contactService: 'Service',
   contactServicePlaceholder: 'Choisir un service',
   contactBudget: 'Budget (optionnel)',
@@ -779,7 +857,9 @@ const fr: TranslationKeys = {
   serviceOpt2: 'Développement App',
   serviceOpt3: 'Marketing Digital',
   serviceOpt4: 'SEO',
-  serviceOpt5: 'Autre',
+  serviceOpt5: 'Développement Shopify',
+  serviceOpt6: 'Développement WordPress',
+  serviceOpt7: 'Autre',
 };
 
 const es: TranslationKeys = {
@@ -791,7 +871,7 @@ const es: TranslationKeys = {
   ctaPrimary: 'Iniciar un proyecto',
   ctaSecondary: 'Ver mi trabajo',
   email: 'hello@waliaslam.dev',
-  phone: '+92 300 0000000',
+  phone: '+92 3172254574',
   location: 'Pakistán',
   statsProjects: 'Proyectos entregados',
   statsClients: 'Clientes felices',
@@ -824,7 +904,7 @@ const es: TranslationKeys = {
   timeline4Label: 'Construyendo experiencias digitales completas, de principio a fin',
 
   servicesEyebrow: 'Lo que hago',
-  servicesTitle: 'Tres disciplinas. Un resultado.',
+  servicesTitle: 'Cinco disciplinas. Un resultado.',
   webDevTitle: 'Desarrollo Web',
   webDevShort: 'Sitios y aplicaciones web rápidos y modernos construidos alrededor de objetivos de negocio.',
   webDevDesc: 'Sitios y aplicaciones web personalizados — sin constructores de páginas pesados. Cada proyecto está construido para velocidad, claridad y un camino claro hacia la acción deseada.',
@@ -846,6 +926,20 @@ const es: TranslationKeys = {
   digitalMarketingD2: 'Configuración de analítica',
   digitalMarketingD3: 'Estrategia de contenido',
   digitalMarketingD4: 'Marketing de rendimiento',
+  shopifyDevTitle: 'Desarrollo Shopify',
+  shopifyDevShort: 'Tiendas Shopify personalizadas diseñadas para conversiones y crecimiento.',
+  shopifyDevDesc: 'Temas, aplicaciones e integraciones Shopify personalizados — diseñados para convertir visitantes en clientes. Desde la configuración de la tienda hasta la personalización avanzada.',
+  shopifyDevD1: 'Desarrollo de temas personalizados',
+  shopifyDevD2: 'Aplicaciones e integraciones Shopify',
+  shopifyDevD3: 'Migración de tienda',
+  shopifyDevD4: 'Optimización de rendimiento',
+  wordpressDevTitle: 'Desarrollo WordPress',
+  wordpressDevShort: 'Sitios WordPress profesionales con temas y plugins personalizados.',
+  wordpressDevDesc: 'Temas y plugins WordPress personalizados — sin constructores de páginas genéricos. Cada sitio está construido para velocidad, seguridad y fácil gestión de contenido.',
+  wordpressDevD1: 'Desarrollo de temas personalizados',
+  wordpressDevD2: 'Desarrollo de plugins',
+  wordpressDevD3: 'Tiendas WooCommerce',
+  wordpressDevD4: 'Mantenimiento del sitio',
   covers: 'Cubre',
   technologies: 'Tecnologías',
 
@@ -903,7 +997,7 @@ const es: TranslationKeys = {
   contactEmail: 'Email',
   contactEmailPlaceholder: 'tu@empresa.com',
   contactPhone: 'Teléfono (opcional)',
-  contactPhonePlaceholder: '+92 300 0000000',
+  contactPhonePlaceholder: '+92 3172254574',
   contactService: 'Servicio',
   contactServicePlaceholder: 'Seleccionar servicio',
   contactBudget: 'Presupuesto (opcional)',
@@ -931,7 +1025,9 @@ const es: TranslationKeys = {
   serviceOpt2: 'Desarrollo de Apps',
   serviceOpt3: 'Marketing Digital',
   serviceOpt4: 'SEO',
-  serviceOpt5: 'Otro',
+  serviceOpt5: 'Desarrollo Shopify',
+  serviceOpt6: 'Desarrollo WordPress',
+  serviceOpt7: 'Otro',
 };
 
 export const translations: Record<Language, TranslationKeys> = {
